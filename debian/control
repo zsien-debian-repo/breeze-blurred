@@ -1,0 +1,28 @@
+Source: breeze-blurred
+Section: kde
+Priority: optional
+Maintainer: Zijung Chueh <i@zijung.me>
+Build-Depends:
+ cmake,
+ debhelper (>= 11),
+ extra-cmake-modules,
+ libfftw3-dev,
+ libkdecorations2-dev,
+ libkf5config-dev,
+ libkf5configwidgets-dev,
+ libkf5coreaddons-dev,
+ libkf5guiaddons-dev,
+ libkf5windowsystem-dev,
+ libqt5x11extras5-dev,
+ qtdeclarative5-dev,
+Standards-Version: 4.1.3
+Homepage: https://github.com/alex47/BreezeBlurred
+Vcs-Browser: https://github.com/zijung-debian-repo/breeze-blurred
+Vcs-Git: https://github.com/zijung-debian-repo/breeze-blurred.git
+
+Package: breeze-blurred
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: BreezeBlurred is a fork of KDE Breeze decoration.
