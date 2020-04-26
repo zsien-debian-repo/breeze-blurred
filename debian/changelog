@@ -1,3 +1,9 @@
+breeze-blurred (0~201812302343~716ed7c9-1) unstable; urgency=medium
+
+  * Change decoration name from BreezeBlur to BreezeBlurred
+
+ -- Zhihsian Que <i@zhihsian.me>  Fri, 26 Apr 2019 22:42:41 +0800
+
 breeze-blurred (0~201810121612~f73965e0-1) unstable; urgency=medium
 
   * Initial release
